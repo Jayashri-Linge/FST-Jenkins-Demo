@@ -13,4 +13,9 @@ public class AlertsTest extends BaseTest {
 	  page.getAlertTextAndAccept();
   }
 
+  @Test
+    public void tearDown(){
+      driver.quite();
+  }
+
 }
